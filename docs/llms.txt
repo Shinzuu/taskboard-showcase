@@ -1,0 +1,18 @@
+# taskboard
+
+> taskboard is a small command plus a Claude Code skill, made by Shinzuu, for reading and updating your own tasks on a team's task board through its personal task API: list open tasks, read a task with comments, change status, comment with @mentions, log time and run the timer. The skill makes Claude show every write and wait for a yes. Time logging refuses the same task, minutes and date within 12 hours, sends dates in UTC, and never retries a request. The source is not public; it is available from the author on request.
+
+Counted: 18 offline tests, a 12-hour double-log window, 4 kinds of change (status, comment, time, timer), 0 retries on a time entry.
+
+## Install with an agent
+
+- [Agent setup page](https://shinzuu.github.io/taskboard-showcase/agent-setup.html): what the setup prompt does, what the agent asks the human, and safety notes
+- [Agent setup prompt (raw)](https://shinzuu.github.io/taskboard-showcase/agent-setup-prompt.md): paste into Claude Code; it installs the command and skill from a local folder, has the human store their key without echo, and runs the offline tests
+
+## Docs
+
+- [Website](https://shinzuu.github.io/taskboard-showcase/): overview with the command's real output against invented tasks
+
+## Optional
+
+- Source code: available on request from the author
